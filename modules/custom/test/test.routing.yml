@@ -1,0 +1,14 @@
+test.my_page:
+  path: '/mypage'
+  defaults:
+    _controller: '\Drupal\test\Controller\TestController::home'
+    _title: 'My First Drupal 8 Page'
+  requirements:
+    _permission: 'access content'
+test.form:
+  path: '/test-form'
+  defaults:
+    _title: 'Example form'
+    _form: '\Drupal\test\Form\LoginForm'
+  requirements:
+      _permission: 'access content'
