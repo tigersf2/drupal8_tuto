@@ -1,0 +1,5 @@
+name: 'Test API Module'
+description: 'Test API module'
+type: module
+core: 8.x
+package: Custom
